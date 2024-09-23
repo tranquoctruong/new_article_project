@@ -1,0 +1,38 @@
+{
+    "name": "news-evaluation-app",
+    "version": "1.0.0",
+    "description": "A web app to evaluate news articles using Natural Language Processing.",
+    "main": "src/server/server.js",
+    "scripts": {
+      "build": "webpack --mode production",
+      "start": "webpack-dev-server --mode development",
+      "server": "node src/server/server.js"
+    },
+    "keywords": [
+      "news",
+      "evaluation",
+      "NLP",
+      "natural-language-processing"
+    ],
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+      "axios": "^0.21.1",
+      "body-parser": "^1.19.0",
+      "compromise": "^13.11.1",
+      "cors": "^2.8.5",
+      "express": "^4.17.1"
+    },
+    "devDependencies": {
+      "clean-webpack-plugin": "^4.0.0",
+      "html-webpack-plugin": "^5.3.2",
+      "sass": "^1.32.0",
+      "sass-loader": "^10.1.1",
+      "style-loader": "^2.0.0",
+      "css-loader": "^5.2.4",
+      "webpack": "^5.38.1",
+      "webpack-cli": "^4.7.0",
+      "webpack-dev-server": "^3.11.2"
+    }
+  }
+  
